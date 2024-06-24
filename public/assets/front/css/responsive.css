@@ -1,0 +1,133 @@
+@media screen and (max-width:767px) {
+    .banner_caption h1 {
+        font-size: 50px;
+        margin-top: 60px;
+    }
+
+    .table-wrap {
+        overflow-x: auto;
+    }
+
+    .header {
+        padding: 0 16px;
+        position: absolute;
+        top: 98px;
+    }
+
+    .banner_caption p {
+        font-size: 20px;
+    }
+
+    .about_form {
+        margin-top: 0;
+    }
+
+    .about_section h2 {
+        font-size: 30px;
+    }
+
+    .blog_tag {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .news_block {
+        margin-bottom: 30px;
+    }
+
+    .price_block {
+        margin-bottom: 30px;
+    }
+
+    .blog_tag li {
+        white-space: nowrap;
+    }
+
+    .price-table {
+        overflow-x: auto;
+    }
+
+    .indexsub_list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+    }
+    .inner_page aside {
+        display: none;
+    }
+    .inner_page main {
+        padding-left: 0;
+    }
+    .dashboard_header .navbar-brand {
+        padding: 10px;
+    }
+    .navbar-brand img {
+        max-height: 30px;
+    }
+    .index_list {
+        white-space: nowrap;
+        overflow: auto;
+    }
+    .inner_page {
+        flex-direction: column;
+    }
+    .blog_block figure {
+        max-width: 100%;
+    }
+    .preferences_list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .indexsub_list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+    }
+
+    .banner_caption h1 {
+        font-size: 78px;
+        margin-top: 60px;
+    }
+
+    .table-wrap {
+        overflow-x: auto;
+    }
+
+    .header {
+        padding: 0 16px;
+        position: absolute;
+        top: 98px;
+    }
+
+    .banner_caption p {
+        font-size: 20px;
+    }
+
+    .about_form {
+        margin-top: 0;
+    }
+
+    .about_section h2 {
+        font-size: 30px;
+    }
+
+    .blog_tag {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .news_block {
+        margin-bottom: 30px;
+    }
+
+    .blog_tag li {
+        white-space: nowrap;
+    }
+}
